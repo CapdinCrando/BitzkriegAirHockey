@@ -25,7 +25,7 @@ class ControllerEvent
 public:
 	//Axis Constants
 	static const short MIN_AXES_VALUE = -32768;	//Min for Axis Range
-	static const short MIN_AXES_VALUE = 32768;	//Max for Axis Range
+	static const short MAX_AXES_VALUE = 32768;	//Max for Axis Range
 
 	//Can Pertain to Joystick or Buttons; 
 	//For Button Inputs [1 or 0], (Down or Up)
