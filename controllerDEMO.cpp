@@ -11,7 +11,7 @@
 #include <iostream>
 #include <unistd.h>
 
-int main(int argc. char** argv)
+int main(int argc, char** argv)
 {
 	//Create an instance of Controller
 	Controller controller0("dev/input/js0");	//Might not be the correct location or controller name
