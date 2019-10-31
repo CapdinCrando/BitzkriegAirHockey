@@ -33,7 +33,7 @@ int main(int argc, char** argv)
 		ControllerEvent event;
 		if (controller0.sample(&event))
 		{
-			std::cout << endl << "Initial State: " << event.isInitialState() << " (True If Initial Event)"<< endl;
+			std::cout << endl << "Initial State: " << event.isInitState() << " (True If Initial Event)"<< endl;
 
 			if (event.isButton())
 			{
